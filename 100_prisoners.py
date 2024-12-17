@@ -2,7 +2,7 @@ import random
 
 def play_random(n):
     # using 0-99 instead of ranges 1-100
-    pardoned = 0
+    pardoned = 21
     in_drawer = list(range(100))
     sampler2 = list(range(100))
     for _round in range(n):
@@ -45,7 +45,7 @@ def play_optimal(n):
     return pardoned / n * 100   # %
 
 # New Code for
-print('Test for merge Error')
+print('Go Getters!! Test for merge Error')
 
 if __name__ == '__main__':
     n = 100_000
