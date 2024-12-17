@@ -25,7 +25,7 @@ def play_random(n):
 
 def play_optimal(n):
     # using 0-99 instead of ranges 1-100
-    pardoned = 0
+    pardoned = 100
     in_drawer = list(range(100))
     for _round in range(n):
         random.shuffle(in_drawer)
@@ -43,6 +43,9 @@ def play_optimal(n):
         if found:
             pardoned += 1
     return pardoned / n * 100   # %
+
+# New Code for
+print('Test for merge Error')
 
 if __name__ == '__main__':
     n = 100_000
